@@ -1,8 +1,9 @@
 package com.tjoeun.shop.dtotest;
 
-import lombok.Data;
+import lombok.Getter;
+import lombok.Setter;
 
-@Data
+@Getter @Setter
 public class Student {
   private String name;
   private int age;
